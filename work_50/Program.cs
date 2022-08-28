@@ -2,9 +2,9 @@
 // массиве, и возвращает значение этого элемента или же указание, что такого элемента нет.
 
 Console.Write("Введите строку:");
-int rows = Convert.ToInt32(Console.ReadLine());
+int rows = int.Parse(Console.ReadLine());
 Console.Write("Введите столбец:");
-int columns = Convert.ToInt32(Console.ReadLine());
+int columns = int.Parse(Console.ReadLine());
 int n = 6;
 int m = 6; 
 Random random = new Random();
